@@ -30,13 +30,13 @@ npm install
 
 Create backend/.env:
 
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017/mini-healthcare
+PORT=5001
 
 
 Create frontend/.env:
 
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=http://localhost:5001
 
 
 3. Run
